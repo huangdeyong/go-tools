@@ -36,6 +36,6 @@ func main() {
 	}
 	ret := L.Get(-1)
 	L.Pop(1)
-	fmt.Println("ret.String()", ret.String())
+	fmt.Println("ret.String() ===>>> ", ret.String())
 
 }
