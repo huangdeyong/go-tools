@@ -8,6 +8,6 @@ type User struct {
 }
 
 func (u *User) UpdateName(newestName string) {
-	fmt.Println("UpdateName....")
+	fmt.Println("原来的函数 UpdateName....")
 	u.Name = newestName
 }
